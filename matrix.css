@@ -1,0 +1,22 @@
+
+.matrix {
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-gap: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: #eee;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+
+.box.clicked {
+	background-color: green;
+}
+
+.box.orange {
+	background-color: orange;
+}
